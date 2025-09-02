@@ -52,7 +52,7 @@ const Header: React.FC = () => {
             <Link
               to="/"
               onClick={closeMenu}
-              className="text-gray-700 hover:text-blue-900 font-medium transition-colors"
+              className="text-gray-700 hover:text-[#2e90ff] font-medium transition-colors"
             >
               Home
             </Link>
@@ -61,7 +61,7 @@ const Header: React.FC = () => {
             <a
               href="#layanan"
               onClick={closeMenu}
-              className="text-gray-700 hover:text-blue-900 font-medium transition-colors"
+              className="text-gray-700 hover:text-[#2e90ff] font-medium transition-colors"
             >
               Service
             </a>
@@ -69,7 +69,7 @@ const Header: React.FC = () => {
             <Link
               to="/about"
               onClick={closeMenu}
-              className="text-gray-700 hover:text-blue-900 font-medium transition-colors"
+              className="text-gray-700 hover:text-[#2e90ff] font-medium transition-colors"
             >
               About
             </Link>
@@ -77,7 +77,7 @@ const Header: React.FC = () => {
             <a
               href="#portfolio"
               onClick={closeMenu}
-              className="text-gray-700 hover:text-blue-900 font-medium transition-colors"
+              className="text-gray-700 hover:text-[#2e90ff] font-medium transition-colors"
             >
               Portfolio
             </a>
@@ -85,7 +85,7 @@ const Header: React.FC = () => {
             <a
               href="#kontak"
               onClick={closeMenu}
-              className="text-gray-700 hover:text-blue-900 font-medium transition-colors"
+              className="text-gray-700 hover:text-[#2e90ff] font-medium transition-colors"
             >
               Contact
             </a>
@@ -117,7 +117,7 @@ const Header: React.FC = () => {
               <Link
                 to="/"
                 onClick={closeMenu}
-                className="text-gray-700 hover:text-blue-900 font-medium"
+                className="text-gray-700 hover:text-[#2e90ff] font-medium"
               >
                 Home
               </Link>
@@ -125,7 +125,7 @@ const Header: React.FC = () => {
               <a
                 href="#layanan"
                 onClick={closeMenu}
-                className="text-gray-700 hover:text-blue-900 font-medium"
+                className="text-gray-700 hover:text-[#2e90ff] font-medium"
               >
                 Service
               </a>
@@ -133,7 +133,7 @@ const Header: React.FC = () => {
               <Link
                 to="/about"
                 onClick={closeMenu}
-                className="text-gray-700 hover:text-blue-900 font-medium"
+                className="text-gray-700 hover:text-[#2e90ff] font-medium"
               >
                 About
               </Link>
@@ -141,7 +141,7 @@ const Header: React.FC = () => {
               <a
                 href="#portfolio"
                 onClick={closeMenu}
-                className="text-gray-700 hover:text-blue-900 font-medium"
+                className="text-gray-700 hover:text-[#2e90ff] font-medium"
               >
                 Portfolio
               </a>
@@ -149,7 +149,7 @@ const Header: React.FC = () => {
               <a
                 href="#kontak"
                 onClick={closeMenu}
-                className="text-gray-700 hover:text-blue-900 font-medium"
+                className="text-gray-700 hover:text-[#2e90ff] font-medium"
               >
                 Contact
               </a>
