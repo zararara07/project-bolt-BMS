@@ -9,12 +9,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div>
-              <h3 className="text-2xl font-bold text-white mb-4">
-                KontraktorPro
+              <h3 className="text-1xl font-bold text-white mb-4">
+                PT. BELVIA MAJU SINERGI
               </h3>
               <p className="text-gray-300 leading-relaxed">
-                Kontraktor terpercaya dengan pengalaman 15+ tahun dalam industri konstruksi. 
-                Memberikan solusi terbaik untuk setiap proyek impian Anda.
+              Kontrkator HVAC Terbaik Yang Memberikan Layanan Desain, Instalasi, Service dan Perbaikan Teknik Di Indonesia
               </p>
             </div>
             <div className="flex space-x-4">
@@ -107,32 +106,31 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-6">Kontak Info</h4>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <MapPin className="text-[#2e90ff] mt-1" size={20} />
+                <MapPin className="text-[#2e90ff] mt-1" size={30} />
                 <div>
                   <p className="text-gray-300">
-                    Jl. Sudirman No. 123<br />
-                    Jakarta Pusat 10220<br />
+                    Jl. Perintis No.15 RT 03/003, Kalimulya, Kec. Cilodong,<br />
+                    Kota Depok 16414 Jawa Barat, <br />
                     Indonesia
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex items-center space-x-3">
                 <Phone className="text-[#2e90ff]" size={20} />
-                <p className="text-gray-300">+62 21-1234-5678</p>
+                <p className="text-gray-300">+62 816-1127-017</p>
               </div>
-              
+
               <div className="flex items-center space-x-3">
                 <Mail className="text-[#2e90ff]" size={20} />
-                <p className="text-gray-300">info@kontraktorpro.com</p>
+                <p className="text-gray-300">bms130121@gmail.com</p>
               </div>
-              
+
               <div className="flex items-start space-x-3">
                 <Clock className="text-[#2e90ff] mt-1" size={20} />
                 <div>
                   <p className="text-gray-300">
-                    Sen - Jum: 08:00 - 17:00<br />
-                    Sabtu: 08:00 - 14:00
+                    Senin - Jumat: 09:00 - 17:00<br />
                   </p>
                 </div>
               </div>
