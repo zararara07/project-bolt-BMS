@@ -42,7 +42,7 @@ const Contact = () => {
             <h3 className="text-2xl font-bold text-gray-800 mb-6">
               Informasi Kontak
             </h3>
-            
+
             <div className="space-y-6">
               <div className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow">
                 <div className="bg-orange-100 p-3 rounded-lg">
@@ -96,7 +96,7 @@ const Contact = () => {
             <h3 className="text-2xl font-bold text-gray-800 mb-6">
               Hubungi Kami
             </h3>
-            
+
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
