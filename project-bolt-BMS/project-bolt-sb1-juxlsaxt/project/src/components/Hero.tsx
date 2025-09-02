@@ -8,8 +8,6 @@ const Hero = () => {
   className="relative bg-gradient-to-br from-[#2e90ff] via-[#2e90ff] to-[#2e90ff] text-white"
 >
 
-      {/* Background overlay */}
-      <div className="absolute inset-0 bg-black opacity-20"></div>
 
       {/* Hero content */}
       <div className="relative container mx-auto px-4 py-20 lg:py-32">
@@ -51,7 +49,7 @@ const Hero = () => {
                 alt="Konstruksi modern"
                 className="w-full h-96 lg:h-[500px] object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-blue-900/50 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-[#2e90ff]/50 to-transparent"></div>
             </div>
           </div>
           </div>
