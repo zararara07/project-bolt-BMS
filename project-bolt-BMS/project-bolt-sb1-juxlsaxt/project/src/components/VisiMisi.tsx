@@ -6,7 +6,7 @@ export default function VisiMisi() {
     <section className="py-16 bg-gray-100">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-8">Visi & Misi</h2>
-        
+
         <div className="grid md:grid-cols-2 gap-8">
           {/* Visi */}
           <div className="bg-white shadow-lg rounded-2xl p-6">
