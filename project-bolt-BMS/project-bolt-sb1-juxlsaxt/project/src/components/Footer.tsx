@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin, Youtube, Clock } from 'lucide-react';
 
 const Footer = () => {
@@ -9,11 +10,12 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div>
-              <h3 className="text-1xl font-bold text-white mb-4">
-                PT. BELVIA MAJU SINERGI
+              <h3 className="text-2xl font-bold text-white mb-4">
+                KontraktorPro
               </h3>
               <p className="text-gray-300 leading-relaxed">
-              Kontrkator HVAC Terbaik Yang Memberikan Layanan Desain, Instalasi, Service dan Perbaikan Teknik Di Indonesia
+                Kontraktor terpercaya dengan pengalaman 15+ tahun dalam industri konstruksi. 
+                Memberikan solusi terbaik untuk setiap proyek impian Anda.
               </p>
             </div>
             <div className="flex space-x-4">
@@ -36,68 +38,12 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">Layanan Kami</h4>
             <ul className="space-y-3">
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#2e90ff] transition-colors">
-                  Pembangunan Rumah
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#2e90ff] transition-colors">
-                  Gedung Komersial
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#2e90ff]transition-colors">
-                  Renovasi & Remodeling
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#2e90ff] transition-colors">
-                  Interior & Finishing
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#2e90ff] transition-colors">
-                  Landscaping
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#2e90ff] transition-colors">
-                  Instalasi MEP
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-lg font-semibold mb-6">Tautan Cepat</h4>
-            <ul className="space-y-3">
-              <li>
-                <a href="#beranda" className="text-gray-300 hover:text-[#2e90ff] transition-colors">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#layanan" className="text-gray-300 hover:text-[#2e90ff] transition-colors">
-                  Service
-                </a>
-              </li>
-              <li>
-                <a href="#tentang" className="text-gray-300 hover:text-[#2e90ff] transition-colors">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio" className="text-gray-300 hover:text-[#2e90ff] transition-colors">
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a href="#kontak" className="text-gray-300 hover:text-[#2e90ff] transition-colors">
-                  Contact
-                </a>
-              </li>
+              <li><a href="#" className="text-gray-300 hover:text-[#2e90ff] transition-colors">Pembangunan Rumah</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-[#2e90ff] transition-colors">Gedung Komersial</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-[#2e90ff] transition-colors">Renovasi & Remodeling</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-[#2e90ff] transition-colors">Interior & Finishing</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-[#2e90ff] transition-colors">Landscaping</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-[#2e90ff] transition-colors">Instalasi MEP</a></li>
             </ul>
           </div>
 
@@ -106,33 +52,30 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-6">Kontak Info</h4>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <MapPin className="text-[#2e90ff] mt-1" size={30} />
-                <div>
-                  <p className="text-gray-300">
-                    Jl. Perintis No.15 RT 03/003, Kalimulya, Kec. Cilodong,<br />
-                    Kota Depok 16414 Jawa Barat, <br />
-                    Indonesia
-                  </p>
-                </div>
+                <MapPin className="text-[#2e90ff] mt-1" size={20} />
+                <p className="text-gray-300">
+                  Jl. Sudirman No. 123<br />
+                  Jakarta Pusat 10220<br />
+                  Indonesia
+                </p>
               </div>
-
+              
               <div className="flex items-center space-x-3">
                 <Phone className="text-[#2e90ff]" size={20} />
-                <p className="text-gray-300">+62 816-1127-017</p>
+                <p className="text-gray-300">+62 21-1234-5678</p>
               </div>
-
+              
               <div className="flex items-center space-x-3">
                 <Mail className="text-[#2e90ff]" size={20} />
-                <p className="text-gray-300">bms130121@gmail.com</p>
+                <p className="text-gray-300">info@kontraktorpro.com</p>
               </div>
-
+              
               <div className="flex items-start space-x-3">
                 <Clock className="text-[#2e90ff] mt-1" size={20} />
-                <div>
-                  <p className="text-gray-300">
-                    Senin - Jumat: 09:00 - 17:00<br />
-                  </p>
-                </div>
+                <p className="text-gray-300">
+                  Sen - Jum: 08:00 - 17:00<br />
+                  Sabtu: 08:00 - 14:00
+                </p>
               </div>
             </div>
           </div>
@@ -147,15 +90,9 @@ const Footer = () => {
               © 2025 PT. BELVIA MAJU SINERGI. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-[#2e90ff] text-sm transition-colors">
-
-              </a>
-              <a href="#" className="text-gray-400 hover:text-[#2e90ff]text-sm transition-colors">
-
-              </a>
-              <a href="#" className="text-gray-400 hover:text-[#2e90ff] text-sm transition-colors">
-
-              </a>
+              <a href="#" className="text-gray-400 hover:text-[#2e90ff] text-sm transition-colors"></a>
+              <a href="#" className="text-gray-400 hover:text-[#2e90ff] text-sm transition-colors"></a>
+              <a href="#" className="text-gray-400 hover:text-[#2e90ff] text-sm transition-colors"></a>
             </div>
           </div>
         </div>
